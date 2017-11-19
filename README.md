@@ -1,7 +1,7 @@
 # AWS_setup
 
-1. install pyspark
-install python
+1. install pyspark    
+install python    
 install jupyter
 install java
 sudo apt-get install scala
