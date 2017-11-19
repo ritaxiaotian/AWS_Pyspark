@@ -23,6 +23,6 @@ cd spark-2.2.0-bin-hadoop2.7/
 pwd
 /home/xiaoran/spark-2.2.0-bin-hadoop2.7   
 **import findspark**        
-** findspark.init('/home/xiaoran/spark-2.2.0-bin-hadoop2.7')**   
+**findspark.init('/home/xiaoran/spark-2.2.0-bin-hadoop2.7')**   
 **import pyspark**
 
