@@ -18,3 +18,11 @@ inside "/home/xiaoran/spark-2.2.0-bin-hadoop2.7/python"
 open terminal, open jupyter notebook    
 ## 2. Set up PySpark to work in any directory
 Not only under "/home/xiaoran/spark-2.2.0-bin-hadoop2.7/python"
+pip3 install findspark    
+cd spark-2.2.0-bin-hadoop2.7/   
+pwd
+/home/xiaoran/spark-2.2.0-bin-hadoop2.7   
+**import findspark**        
+** findspark.init('/home/xiaoran/spark-2.2.0-bin-hadoop2.7')**   
+**import pyspark**
+
