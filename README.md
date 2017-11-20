@@ -69,7 +69,7 @@ c.NotebookApp.port = 8888
  http://**publicDNS**:8888/?token=fc4eb092caf715a25c4263f23299524c4b85e9ca95478ccf
 
 import findspark  
-findspark.init(/home/ubuntu/spark-2.2.0-bin-hadoop2.7)
+findspark.init('/home/ubuntu/spark-2.2.0-bin-hadoop2.7')
 
 
 
