@@ -25,4 +25,12 @@ pwd
 **import findspark**        
 **findspark.init('/home/xiaoran/spark-2.2.0-bin-hadoop2.7')**   
 **import pyspark**
-
+## 3. AWS EC2
+1. AWS EC2 set-up
+2. Creating EC2 instance
+3. SSH (secure shell connection) with Linux to connect to EC2 over internet
+4. Set up spark and Jupyter on EC2 instance
+5. Download new pairs.pem file: actions:terminate
+6.chmod 400 newaparkpair.pem
+7.ssh -i newaparkpair.pem ubuntu@ec2-18-216-189-3.us-east-2.compute.amazonaws.com
+**now you are running on the EC2 instance on your computer**
