@@ -56,9 +56,9 @@ pwd
 14. sudo openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout mycert.pem -out mycert.pem  
 15. cd ~/.jupyter/  
 16. vi jupyter_notebook_config.py   
-17. **keyboard i is insert** 
-c = get_config()
-c.NotebookApp.certifile = u'/home/ubuntu/certs/mycert.pem'  
+17. **keyboard i is insert**   
+c = get_config()  
+c.NotebookApp.certifile = u'/home/ubuntu/certs/mycert.pem'   
 c.NotebookApp.ip = '*'  
 c.NotebookApp.open_browser = False  
 c.NotebookApp.port = 8888    
